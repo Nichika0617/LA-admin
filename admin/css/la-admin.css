@@ -1,0 +1,139 @@
+a{
+	color: #27f; 
+	position: relative;
+	display: inline-block;
+	transition: .3s;
+}
+a:link{
+	color: #27f; 
+}
+/* a:visited{
+	color: #ffd890; 
+} */
+
+a:hover{
+	color: rgb(44, 174, 113); 
+}
+a::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 0;
+	height: 1px;
+	background-color:rgb(44, 174, 113);
+	transition: .3s;
+	margin-bottom: 3px;
+}
+
+a:hover::after {
+width: 100%;
+}
+
+body{
+	/* line-height: 140%; */
+	color: #220;
+	font-size: 2ex;
+    font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+}
+.title{
+	font-size: 140%;
+	background-color: #acf;
+	color: #fff;
+	padding: 7px 3px 2px 7px;
+}
+
+#header{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 15px 15px 15px 15px;
+	font-family: 'Caveat', cursive;
+
+}
+.header_gradation{
+    padding: 0.5em 1em;
+    background: -moz-linear-gradient(#2ad36d, #c6ff70);
+    background: -webkit-linear-gradient(#2ad36d, #c6ff70);
+    background: linear-gradient(to right, #2ad36d, #c6ff70);
+    color: #FFF;
+	
+}
+
+.header_gradation h1 {
+    margin: 0; 
+    padding: 0;
+}
+
+#la-info h2.b-color{ background-color: #cef; color: #79a; }
+#la-report h2.b-color{ background-color: #bff; color: #6aa; }
+#system-info h2.b-color{ background-color: #ffa; color: #aa5; }
+#recently h2.b-color{ background-color: #fdd; color: #a88; }
+
+.title:first-letter{ font-size: 150%; }
+#la-info .title:first-letter{ font-size: 150%; color: #79a; }
+#la-report .title:first-letter{ font-size: 150%; color: #6aa; }
+#system-info .title:first-letter{ font-size: 150%; color: #aa5; }
+#recently .title:first-letter{ font-size: 150%; color: a88; }
+
+.item{
+	padding: 4px 15px 3px 8px;
+	background-color: #fff;
+}
+
+h1{ font-size: 160%; margin: 5px; padding: 5px; }
+h2{ font-size: 120%; margin: 0px; padding: 3px; }
+
+ul{
+	margin: 3px 5px 5px 10px;
+	padding: 1px;
+}
+
+ul.top-item{
+	margin: 5px 5px 10px 5px;
+	padding: 2px 5px 5px 20px;
+	line-height: 220%;
+}
+
+li a{
+	text-decoration: none;
+
+}
+
+#wrap{ height: 80%; }
+#la-info{ float : left; width: 370px; height: 285px; padding: 7px; margin: 8px; font-size:small;}
+#la-report{ float : left; width: 370px; height: 285px; padding: 7px; margin: 8px; font-size:small;}
+#system-info{ float : left; width: 370px; height: 300px; padding: 7px; margin: 8px; font-size:small;}
+#recently{ float : left; width: 370px; height: 300px; padding: 7px; margin: 8px; font-size:small;
+	background-image: url("../supu.gif");
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-position: bottom right;
+	background: #fff url("../supu.gif") no-repeat fixed bottom right;
+}
+
+#footer{
+	clear: both;
+	font-size: 2ex;
+	margin: 5px;
+	padding: 5px;
+	border-top: 1px #000 solid;
+}
+
+
+/* rounded corner */
+b.rtop, b.rbottom{ display: block; background: #fff; }
+b.rtop1, b.rbottom1{ display: block; background: #fff; }
+b.rtop2, b.rbottom2{ display: block; background: #fff; }
+b.rtop3, b.rbottom3{ display: block; background: #fff; }
+b.rtop4, b.rbottom4{ display: block; background: #fff; }
+b.rtop b, b.rbottom b{ display: block; height: 1px; overflow: hidden; background: rgb(127, 224, 148); }
+b.rtop1 b, b.rbottom1 b{ display: block; height: 1px; overflow: hidden; background: #cef; }
+b.rtop2 b, b.rbottom2 b{ display: block; height: 1px; overflow: hidden; background: #bff; }
+b.rtop3 b, b.rbottom3 b{ display: block; height: 1px; overflow: hidden; background: #ffa; }
+b.rtop4 b, b.rbottom4 b{ display: block; height: 1px; overflow: hidden; background: #fdd; }
+b.r1{ margin: 0 5px; }
+b.r2{ margin: 0 3px; }
+b.r3{ margin: 0 2px; }
+b.rtop b.r4, b.rbottom b.r4{ margin: 0 1px; height: 2px; }
+
+
